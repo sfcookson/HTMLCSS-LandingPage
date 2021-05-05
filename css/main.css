@@ -59,14 +59,11 @@ section { display: flex; }
 
 .form-control {
     display: block;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 6px 12px;
     border-width: 1px;
     border-style: solid;
-    stroke: #a0a0a0;
-    border-color: #8598a2;
+    border-color: #a0a0a0;
+    color: #8598a2;
 }
 .text-light {
     font-size: 30px;
