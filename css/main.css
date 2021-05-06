@@ -310,7 +310,7 @@ section {
 }
 
 footer {
-  display: wrap;
+  display: flex;
   background-color: #000000;
   position: relative;
   z-index: 0;
