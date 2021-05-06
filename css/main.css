@@ -108,10 +108,11 @@ section {
 }
 
 .header-nav {
-  border-bottom: 1px #a0a0a0;
+  border-bottom: 1px solid #a0a0a0;
 }
 .brand {
-  size: 170px 80px;
+  width: 170px;
+  height: 85px;
   margin-left: -15px;
   margin-right: 60px;
 }
@@ -120,14 +121,16 @@ section {
   height: auto;
 }
 .search-box {
-  size: 330px 30px;
+  width: 330px;
+  height: 30px;
   padding: 6px 12px;
   border: 1px solid #a0a0a0;
 }
 .search-button {
   background-color: #a0a0a0;
   color: #ffffff;
-  size: 100px 30px;
+  width: 100px;
+  height: 30px;
   border: 0;
   padding: 0;
 }
@@ -136,6 +139,12 @@ section {
   padding-left: 0;
   width: 575px;
   margin-top: 10px;
+}
+.nav-list li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2px;
 }
 
 .profile {
@@ -149,7 +158,11 @@ section {
 }
 
 .profile-pic {
-  size: 60px 60px;
+  width: 60px;
+  height: 60px;
+}
+.profile-pic img {
   border-radius: 100px;
   max-width: 100%;
 }
+
