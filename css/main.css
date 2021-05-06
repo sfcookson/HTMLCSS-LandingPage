@@ -171,14 +171,15 @@ section {
 }
 
 .hero {
-  background-image: url("img/hero.jpg");
+  background-image: url("../img/hero.jpg");
   height: 400px;
   background-size: cover;
   background-position: center;
   text-transform: uppercase;
 }
 .hero h1 {
-  margin-left: -30px;
+  position: relative;
+  left: -30px;
 }
 .hero h2 {
   color: #faa541
@@ -214,7 +215,7 @@ section {
   line-height: 1;
   text-align: center;
 }
-.banner-text > :last-child {
+.banner-text > div:last-child {
   font-size: 16px;
   font-weight: 400;
   margin-top: 5px;
